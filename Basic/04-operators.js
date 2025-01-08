@@ -49,10 +49,6 @@ console.log(++d); // Incremento: 7
 console.log(d--); // Decremento: 7 (luego d es 6)
 console.log(--d); // Decremento: 5
 
-// Operador Ternario
-let age = 18;
-let canVote = (age >= 18) ? "Yes" : "No";
-console.log(canVote); // Yes
 
 // Operador de Tipo
 console.log(typeof a); // number
@@ -62,3 +58,9 @@ console.log(typeof {}); // object
 console.log(typeof undefined); // undefined
 console.log(typeof null); // object (esto es un error en JavaScript)
 console.log(typeof function(){}); // function
+
+
+// Operador Ternario
+let age = 18;
+let canVote = (age >= 18) ? "Yes" : "No";
+console.log(canVote); // Yes
