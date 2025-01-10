@@ -61,7 +61,7 @@ myArray.pop()
 
 console.log(myArray)
 
-// shift y unshift
+// shift y unshift --> Añaden y eliminan por el principio
 
 console.log(myArray.shift())
 console.log(myArray)
